@@ -42,5 +42,5 @@
   }
 
   .login {
-    left: 300px; top: 300px;  
+    transform : translate(380px, 360px)
   }

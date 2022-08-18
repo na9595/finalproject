@@ -2,11 +2,42 @@
 <html>
     <head>
         <title>Order_Finish</title>
-        <script>
-            alert('주문이 완료되었습니다');
-        </script>
+        <meta charset="utf-8" />
+        <link href="style4.css" rel="stylesheet" />
     </head>
     <body>
-        <form action="main.html" method="get"></form>
+    <!--상단 메뉴바-->
+    <div class="navbar">
+        <a class="logo" href="main.html">
+          <img src="logo.jpeg" height="20px"> <!--로고 이미지 들어가야함-->
+        </a>
+        <ul>
+          <li><a href="#">Test</a></li>
+          <li><a href="login.html">Login</a></li>
+        </ul>
+      </div>
+      <hr size="5px" color="#000" noshade></hr>        
+
+      <img class="hero_header" src="order.png">
+
+      <!--<h1>'주문이 완료되었습니다'</h1>-->
+      <table>
+            <td>
+                <div class="order_continue">
+                    <a href="main.html">
+                        <img src="order_continue.png">
+                    </a>
+                </div>
+            </td>
+            <td>
+                <div class="order_finish">
+                    <a href="#">
+                        <img src="order_finish.png">
+                    </a>
+                </div>
+            </td>
+        </div>
+      </table>
+
     </body>
 </html>
